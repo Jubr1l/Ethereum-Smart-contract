@@ -21,6 +21,7 @@ contract CNS {
         @param _username username of user
      */
     function addUser(string calldata _username) public {
+        require(bytes(_username).length > 0, "Empty username");
         require(
             wallet_Address[msg.sender] == false,
             "This user has already been registered"
