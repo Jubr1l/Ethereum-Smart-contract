@@ -1,8 +1,9 @@
 // SPDX-License-Identifier: GPL-3.0
-
 pragma solidity ^0.8.16;
 
-contract CNS {
+
+//
+contract ENS {
     event NewUser(string _username, address walletAddress);
 
     event Sent_Eth(address sender, address receiever, uint256 amount);
