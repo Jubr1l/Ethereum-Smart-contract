@@ -1,5 +1,5 @@
 # Ethereum-Smart-contract
-A smart contract that is made to enable easy transfer of ethereum by leveraging the ability of using username rather than the long wallet address which one might not copy correctly and assets may be lost.
+A smart contract that is made to enable easy transfer of ethereum by leveraging the ability of using a 5 digit unique code rather than the long wallet address which one might not copy correctly and assets may be lost.
 
 The smart contract creates a more user friendly way of transferring assets from one wallet to another
 
